@@ -1,3 +1,10 @@
 body {
-    background-color: aqua;
+    background-color: rgb(246, 220, 53);
+}
+.main-menu {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
 }
