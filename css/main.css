@@ -1,8 +1,13 @@
 body {
     background-color: aqua;
 }
-
-
+.main-menu {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+}
 .widget{
     display: flex;
     list-style: none;
@@ -10,9 +15,9 @@ body {
     gap: 1rem;
     flex-direction: column;
 }
-
 .footer.widget{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    background-color: rgb(246, 220, 53);
 }
